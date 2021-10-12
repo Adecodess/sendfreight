@@ -1,0 +1,50 @@
+.cargo {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.cargoTopItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cargoTopItem__title {
+  color: rgb(43, 40, 40);
+}
+
+.cargoTopItem__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cargoTopItem__description > p {
+  color: grey;
+}
+
+.cargoSwitch {
+  margin-right: 20px;
+}
+.cargoMidItemForm {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dimensions > input {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.dimensions > input::placeholder {
+  color: royalblue;
+}
+
+.details > input {
+  padding: 10px 30px;
+  text-align: center;
+  background-color: lightgrey;
+}

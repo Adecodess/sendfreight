@@ -36,12 +36,19 @@
 .tobarFormIcon {
   position: absolute;
   bottom: 20px;
-  right: 42%;
+  right: 45%;
   font-size: 20px;
 }
 
+.topbarRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
 .request {
-  margin-right: 20px;
+  margin: 5px;
   width: 150px;
   height: 30px;
   background: none;
@@ -56,6 +63,22 @@
   background: rgb(79, 216, 79);
   color: #fff;
   border-radius: 2px;
-  border: 1px solid #fff;
+
   cursor: pointer;
 }
+/* @media screen and (max-width: 998px) {
+  .topbarForm > input {
+    width: 100px;
+  }
+  .request {
+    width: 100px;
+    height: 40px;
+  }
+  .book {
+    width: 100px;
+    height: 40px;
+  }
+  .tobarFormIcon {
+    right: 50%;
+  }
+} */
